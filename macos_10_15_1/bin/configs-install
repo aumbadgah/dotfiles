@@ -1,3 +1,0 @@
-#!/bin/sh
-
-curl -s -L https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/macos.10.15.1/install.sh | bash

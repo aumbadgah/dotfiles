@@ -27,12 +27,10 @@ brew install \
 	zsh-syntax-highlighting | true
 brew cask install iterm2
 
-curl https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/macos.10.15.1/.vimrc > ~/.vimrc
-curl https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/macos.10.15.1/.tmux.conf > ~/.tmux.conf
-curl https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/macos.10.15.1/.zshrc > ~/.zshrc
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_10_15_1/.vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_10_15_1/.tmux.conf > ~/.tmux.conf
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_10_15_1/.zshrc > ~/.zshrc
 
-curl https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/macos.10.15.1/bin/configs-install > /usr/local/bin/configs-install
-chmod +x /usr/local/bin/configs-install
-curl https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/macos.10.15.1/bin/configs-reload > /usr/local/bin/configs-reload
-chmod +x /usr/local/bin/configs-reload
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_10_15_1/bin/reload-configs > /usr/local/bin/reload-configs
+chmod +x /usr/local/bin/reload-configs
 
