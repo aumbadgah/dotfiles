@@ -21,6 +21,7 @@ brew install \
 	yarn \
 	zlib \
 	zsh-syntax-highlighting
+
 # iterm2
 brew install --cask iterm2
 
@@ -31,12 +32,14 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 # zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos.12.1/.zshrc > ~/.zshrc
-curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos.12.1/.zprofile > ~/.zprofile
-curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos.12.1/.vimrc > ~/.vimrc
-curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos.12.1/.tmux.conf > ~/.tmux.conf
+# should probably install all the rest of the zsh plugins, too 😉
 
-sudo bash -c "curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos.12.1/bin/configs-reload > /usr/local/bin/configs-reload"
-sudo chmod +x /usr/local/bin/configs-reload
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/.zshrc > ~/.zshrc
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/.zprofile > ~/.zprofile
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/.vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/.tmux.conf > ~/.tmux.conf
+
+sudo bash -c "curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/bin/reload-configs > /usr/local/bin/reload-configs"
+sudo chmod +x /usr/local/bin/reload-configs
 
 ssh-keygen -t rsa
