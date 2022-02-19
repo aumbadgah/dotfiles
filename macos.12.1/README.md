@@ -14,7 +14,7 @@ Basic setup for macOS
 ## Install
 
 ```
-curl -s -L https://raw.githubusercontent.com/aumbadgah/configs/master/workstation/macos.12.1/install.sh | bash
+curl -s -L https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos.12.1/install.sh | bash
 ```
 
 
