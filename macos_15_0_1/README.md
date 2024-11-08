@@ -1,4 +1,4 @@
-# macos 12.1
+# macos 15.0.1
 
 ## Description
 
@@ -13,20 +13,20 @@ Basic setup for macOS
 ## Install
 
 ```
-curl -s -L https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos.12.1/install.sh | bash
+curl -s -L https://raw.githubusercontent.com/aumbadgah/dotfiles/refs/heads/master/macos_15_0_1/install.sh | bash
 ```
 
 ## tmux short-keys
 
-    prefix `Meta + x`
+    prefix Ctrl+x
 
-    prefix + `.` split new pane vertically
+    prefix+. split new pane vertically
 
-    prefix + `/` split new pane horizontally
+    prefix+/ split new pane horizontally
 
-    prefix + `h/j/k/l` move to pane
+    prefix+hjkl move to pane
 
-    prefix + `r` reload `~/.tmux.conf` and `~/.zshrc` in all panes
+    prefix+r reload ~/.tmux.conf and ~/.zshrc in all panes
 
 ## zsh plugins
 

@@ -34,12 +34,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # should probably install all the rest of the zsh plugins, too 😉
 
-curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/.zshrc > ~/.zshrc
-curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/.zprofile > ~/.zprofile
-curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/.vimrc > ~/.vimrc
-curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/.tmux.conf > ~/.tmux.conf
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/refs/heads/master/macos_15_0_1/.zshrc > ~/.zshrc
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/refs/heads/master/macos_15_0_1/.zprofile > ~/.zprofile
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/refs/heads/master/macos_15_0_1/.vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/aumbadgah/dotfiles/refs/heads/master/macos_15_0_1/.tmux.conf > ~/.tmux.conf
 
-sudo bash -c "curl https://raw.githubusercontent.com/aumbadgah/dotfiles/master/macos_12_1/bin/reload-configs > /usr/local/bin/reload-configs"
+sudo bash -c "curl https://raw.githubusercontent.com/aumbadgah/dotfiles/refs/heads/master/macos_15_0_1/bin/reload-configs > /usr/local/bin/reload-configs"
 sudo chmod +x /usr/local/bin/reload-configs
 
 ssh-keygen -t rsa
